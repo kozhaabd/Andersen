@@ -10,19 +10,17 @@ To get started, clone the repository, And open it in texteditor.
 
 Open a terminal and log in to MySQL:
 
-bash
 
 mysql -u root
 
 Create a new database:
 
-sql
 
 CREATE DATABASE message;
 
 Open a new terminal and run the following commands:
 
-bash
+
 
     # Migrate tables to the database
     php artisan migrate
