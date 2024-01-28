@@ -10,9 +10,9 @@ To get started, clone the repository, And open it in texteditor.
 
 Open a terminal and log in to MySQL:
 
-
+```
 mysql -u root
-
+```
 Create a new database:
 
 
