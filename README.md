@@ -15,17 +15,18 @@ mysql -u root
 ```
 Create a new database:
 
-
+```
 CREATE DATABASE message;
+```
 
 Open a new terminal and run the following commands:
 
 
-
+```
     # Migrate tables to the database
     php artisan migrate
 
     # Start the local development server
     php artisan serve
-
+```
 Now, your application is set up and running locally. Access it by navigating to http://localhost:8000 in your web browser.
